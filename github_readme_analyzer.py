@@ -59,7 +59,7 @@ def analyze_readme(repo_url):
         print(piece, end="", flush=True)
     print("\n\nAnalysis complete.")
 
-    if __name__ == "__main__":
-        url = input("Enter the github repository URL: ")
-        analyze_readme(url)    
+if __name__ == "__main__":
+    url = input("Enter the github repository URL: ")
+    analyze_readme(url)    
 
