@@ -27,7 +27,7 @@ project can be improved in one or two sentences. Do not provide any other inform
 def fetch_readme_content(repo_url):
     repo_url = repo_url.rstrip('/')
 
-    parts = repo_url.replace('http://github/com/', '').split('/')
+    parts = repo_url.replace('https://github.com/', '').split('/')
     raw_url = f"https://raw.githubusercontent.com/{parts[0]}/{parts[1]}/main/README.md"
     try:
         response = requests.get(raw_url)
