@@ -1,15 +1,15 @@
-# API Keys — never push these
+
 .env
 
 # Virtual environment — too large to push
 .venv/
 
-# Python cache files — not needed
+# Python cache files
 __pycache__/
 *.pyc
 *.pyo
 
-# Mac system file — not needed
+# Mac system file 
 .DS_Store
 
 # Cursor/VSCode settings
